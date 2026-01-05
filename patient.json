@@ -1,0 +1,42 @@
+{
+    "P003": {
+        "name": "Sneha kumari",
+        "city": "Pune",
+        "age": 22,
+        "gender": "female",
+        "height": 1.6,
+        "weight": 45.0,
+        "bmi": 175781.25,
+        "verdict": "Obese"
+    },
+    "P005": {
+        "name": "Neha Sinha",
+        "city": "Kolkata",
+        "age": 30,
+        "gender": "female",
+        "height": 1.55,
+        "weight": 75,
+        "bmi": 31.22,
+        "verdict": "Obese"
+    },
+    "P008": {
+        "name": "Abhishek Nishad",
+        "city": "Ballia",
+        "age": 25,
+        "gender": "male",
+        "height": 175.5,
+        "weight": 65.0,
+        "bmi": 21.1,
+        "verdict": "Normal weight"
+    },
+    "P001": {
+        "name": "shahu",
+        "city": "rajstan",
+        "age": 23,
+        "gender": "male",
+        "height": 3.5,
+        "weight": 54.0,
+        "bmi": 44081.63,
+        "verdict": "Obese"
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Management Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🏥 Patient Management Dashboard</h1>
+
+    <div class="sidebar">
+        <div class="section">
+            <h3>🔍 Quick Search</h3>
+            <input type="text" id="searchId" placeholder="Patient ID (e.g. P001)">
+            <button class="btn-search" onclick="searchPatient()">Find Patient</button>
+            <button style="background: #ccc; color: #333;" onclick="loadPatients()">Show All List</button>
+        </div>
+
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+
+        <div class="section">
+            <h3 id="formTitle">➕ Add New Patient</h3>
+            <input type="text" id="id" placeholder="ID (P001)">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="city" placeholder="City">
+            <input type="number" id="age" placeholder="Age">
+            
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <input type="number" step="0.01" id="height" placeholder="Height (cm)">
+            <input type="number" step="0.01" id="weight" placeholder="Weight (kg)">
+
+            <div id="formButtons">
+                <button class="btn-create" onclick="createPatient()">Register Patient</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="patients">
+        </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
